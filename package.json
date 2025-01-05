@@ -1,7 +1,7 @@
 {
   "name": "projetofinal",
   "version": "0.1.0",
-  "homepage": "https://sidneyjunr.github.io/projeto1_infinity",
+  "homepage": "https://sidneyjunr.github.io/catalogo_jogos",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

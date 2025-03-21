@@ -1,30 +1,30 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { BarraNavegacao, BarraNavegacaoLi, BarraNavegacaoUl, LinkStyled } from "../pages/style";
 
 export const Menu = () => {
   return (
-    <nav>
-        <ul>
-            <li>
-                <Link to={"/"}>Home</Link>
-            </li>
+    <BarraNavegacao>
+      <BarraNavegacaoUl>
+        <BarraNavegacaoLi>
+          <LinkStyled to={"/"}>Home</LinkStyled>
+        </BarraNavegacaoLi>
 
-            <li>
-            <Link to={"/mmorpg"}>MMORPG</Link>
-            </li>
+        <BarraNavegacaoLi>
+          <LinkStyled to={"/mmorpg"}>MMORPG</LinkStyled>
+        </BarraNavegacaoLi>
 
-            <li>
-                <Link to={"/fps"}>FPS</Link>
-            </li>
+        <BarraNavegacaoLi>
+          <LinkStyled to={"/fps"}>FPS</LinkStyled>
+        </BarraNavegacaoLi>
 
-            <li>
-            <Link to={"/moba"}>MOBA</Link>
-            </li>
+        <BarraNavegacaoLi>
+          <LinkStyled to={"/moba"}>MOBA</LinkStyled>
+        </BarraNavegacaoLi>
 
-            <li>
-            <Link to={"/page404"}>Page404</Link>
-            </li>
-
-        </ul>
-    </nav>
-  )
-}
+        <BarraNavegacaoLi>
+          <LinkStyled to={"/page404"}>Page404</LinkStyled>
+        </BarraNavegacaoLi>
+      </BarraNavegacaoUl>
+    </BarraNavegacao>
+  );
+};
